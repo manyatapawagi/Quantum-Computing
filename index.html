@@ -1,0 +1,181 @@
+<html>
+
+<head>
+    <title>Quantum Computing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="Shortcut.png">
+    <meta name="title" content="Quantum Computing | Learn the future.">
+    <meta name="description"
+        content="Get to know all you need to for a startup at quantum computing.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body onload="onloadFunction()">
+    <div id="container">
+        <div id="loader">
+        </div> 
+    </div>
+    <div id="Bar">
+        <h3 align="left" style="font-family: 'Amatic SC'; color: beige; user-select: none;">Quantum Computing!</h3>
+        <a href="About dev.html">About developer </a>
+    </div>
+    <div id="home">
+        <h1 align="center">Quantum Computing <br> <i>Learn the future.</i> </h1>
+    </div>
+    <div id="intro" class="padding">
+        <h2> Introduction</h2>
+        The computers we've been using are different from the computers you are about to know!
+        Have you ever noticed how long it takes for a google search? Sometimes seconds, and mostly milliseconds! But if
+        you ever ask for a long list on your computer, how long may it take? Maybe a few minutes, or hours. But
+        sometimes we need really long information from a computer, which might take ages! That’s why quantum computers
+        were formed. But how are they different from classical computers?
+    </div> <br>
+    <div id="classyComp" class="padding">
+        <h2>Classical computers</h2>
+        These are the computers we’ve been using, like - laptops, computers, tablets and smartphones. The language used
+        by the classical computers is binary, and binary is made out of bits - 0 and 1. Now you might think, why are
+        there only 2 digits in the binary language? Well this is because the computer can only understand 2 states - ON
+        or OFF. The ON state is denoted by 1, and OFF state by 0.
+    </div> <br>
+    <div id="quantumComp" class="padding">
+        <h2>Quantum Computers</h2>
+        These are the computers that you’ve never seen or had! They were created for gaining large amounts of
+        information in a lesser time. Their language, unlike classical computers, is understood by qubits. The qubits
+        also have - 0 and 1, but in addition, a qubit can be a combination of 1 and 0 as well!
+    </div> <br>
+    <div id="weird" class="padding">
+        <h2> Weirdness of qubits!</h2>
+        Qubits have really weird properties that makes the reason for using them to solve major problems. Let's get to
+        know them!
+
+        <li>Qubits can be at 2 places at a time.</li>
+        <li>They can pass through walls. </li>
+        <li>If one qubit does a backflip, the other will also do a backflip.</li>
+
+        These might not make sense to you right now, but soon you will get to know how it works!
+
+    </div> <br>
+    <div id="superPos" class="padding">
+        <h2>Superposition</h2>
+        The first two properties are all related to superposition. Remember, how we talked about qubits being a
+        combination of 1 and 0? Well this is also a superposition. When an object can be in 2 states before it is known,
+        it is a superposition. Let’s understand
+        an example: Imagine there is a box, and there is a ball in it. If you are told that the ball can be either red
+        or green, and then asked what its colour could be, then what will be your answer?
+        Well, you can’t tell the colour until you peek inside the box, but for you, before you peek, the colour of the
+        ball is a superposition, because there is 50% chance for it to be red and 50% chance for it to be green! So we
+        can say it’s red and green at the same time!
+        This is an example of superposition. <br>
+        Superposition can also be understood as the neutral state of a qubit, where it can be a combination of various
+        possible situations before you know it. <br>
+        Superposition is a property of qubits that is really helpful in computer. Let's understand this with a simple
+        example: if you have ever played ludo or uno on the computer, you know that the computer chooses it's next step
+        randomly, though this randomness it set up to a limit. But in a way, you can say it's chosen by a superposition,
+        becuase there can be various possibilities of which step has to be taken.
+        This is how superposition gives a boost to the games you play!
+    </div> <br>
+    <div id="entangle" class="padding">
+        <h2>Entanglement</h2>
+        This one is about the last property we discussed, "Entanglement". When 2 qubits do similiar acts, they are said
+        to be entangled together. For example: when you send a message to your friend, one qubit sends the message
+        while the other receives it, this happens because the 2 qubits are entangled.
+    </div> <br>
+    <div id="gates" class="padding">
+        <h2>Quantum Gates and Circuits</h2>
+        Now that you know the properties of qubits, let's try to understand how we can change their properties! <br>
+        When you put unbaked cake inside the oven, it gets baked once it comes out. similarly, if a qubit passes through
+        a gate, it changes to different qubit. The qubit we have before it's put inside the gate, is the input, when it
+        comes out and changes, it's the output. <br> This arrangement of gates on a qubit are called Quantum Circuits.
+    </div> <br>
+    <div id="types" class="padding">
+        <h2>Types of Quantum Gates</h2>
+        To receive different types of outputs, we have different types of gates - <br>
+        <li><b>X gate: </b>This is the gate that changes a qubit to it's oppsosite. for example, if "1" is our input,
+            then the output would be "0". If "0" is input, the output would be "1". What if the input is a
+            superposition?
+            well, the output should either 0 or 1.</li>
+        <li><b>H gate:</b> This gate changes the qubit to a superposition. if the input is "0" or "1", the output would
+            always be a superposition.</li>
+        <li><b>CX gate:</b> This gate is a little different from the last 2. This gate is used to entangle 2 qubits.
+        </li>
+    </div> <br>
+    <div id="python" class="padding">
+        <h2>Quantum Gates using Python</h2>
+        Till now we've only learned what gates can do, but now we will learn how we can use gates in python! <br> But
+        first let's try to understand how to type random statements in python. open python and type this - <br>
+        <pre>print("Hello Python World")</pre> Run this code. what do you see? the content written in paranthesis is
+        shown to you. here, in this code we told the computer to "print" a certain information (which is written in
+        brackets), and to represent that it's text, we also put double quotes (""). <br> To know where to code python
+        online, <a href="Guide.html">Click here</a>
+        <h3>Defining and using variables</h3>
+        We use variables to give a shorter "id" for a long value we might need to use again and again. To define
+        variables in python, type this code and use it like this - <br>
+        <pre>pets = 2  <br>print(pets)</pre> Run this code. What is the result? its 2. When we say "pets = 2", we mean
+        to say that "pets" is a variable and it's value is "2". When we "print" the variable "pets", the value given
+        would
+        be displayed. <br> <b>Remember:</b> As "pets" here is not a text, we didn't put double quotes ("") to represent
+        it. <h3>Using variables with text</h3> Now let us understand how to use variables with normal text in one same
+        code. type the following - <br>
+        <pre>name = James <br>print("My name is " + name)</pre> Run this code. You'll notice that the part written in
+        quotes would be considered as text and printed as it is. While the part without quotes would be considered as a
+        variable and it's value would be displayed instead. <h3>Performing calculations in python</h3> We can even
+        perform calculations in python! type the code given below - <br>
+        <pre>x = 10 <br>y = 15 <br>x + y</pre> Run the code. You will be displayed with the sum of 10 and 15 i.e 25. Now
+        can you find products, quotients and differences in the same way? <br> <b>Hint:</b> Try using "*" for
+        multiplication and "/" for division.
+        <br> <b>Note:</b> Here we didn't have to print text, but numbers, so we didn't need to use print().
+        <h3>Forming circuits in python</h3> Its finally happening! we are going to learn how to form quantum circuits in
+        python! But first you need to type this code to import the library and run it so that your circuit can be formed
+        - <br>
+        <pre>from qiskit import QuantumCircuit, execute, Aer<br>from qiskit.visualization import plot_histogram</pre>
+        <h4>X and Y gate circuit</h4> to make a circuit of the X gate, type this code - <br>
+        <pre>qc = QuantumCircuit(1) <br>qc.x(0)<br>qc.draw()</pre> Run this. What do you see? <br> <img
+            src="result1.jpg"> <br> This is the circuit we've formed. so, what's going on here?
+        well, when we said "qc = QuantumCircuit(1)", we defined a vairiable "qc" which meant Quantum Circuit. in
+        paranthesis (), we give the value for the number of circuit we want. When we said "qc.x(0)", we put an "X"
+        gate on "qc" by saying "qc.x". in paranthesis, we said the counting of circuit on which we want to put it on i.e
+        0. Now you are probably thinking, why did we give "0" in the counting but not 1? well this is because a computer
+        starts counting from 0, so when you count 3 apples, the computer counts is as 2 apples! in the end, "qc.draw()"
+        means we are asking the computer to draw the circuit. Now can you draw an "H" gate in the same way? try putting
+        "qc.h" instead and give the number in paranthesis. <br> <b>Note:</b> In a python, the default initial
+        qubit is always 0. <h4>Adding multiple gates</h4> Now we will learn how to put more than one gate in the same or
+        different circuit. Type the code given below - <br>
+        <pre>qc = QuantumCircuit(1)<br>qc.x(0) <br>qc.h(0) <br>qc.draw()</pre> Run the code. What is the result? <br>
+        <img src="result2.jpg"> <br> Here, we derived 2 gates on the same circuit, "H" and "X". now, can you try making
+        the two gates on 2 different circuits? <br> <b>Hint:</b> try using "qc = QuantumCircuit(2)" instead and apply
+        the gates on different countings.
+        <h4>CX gate circuit</h4> This one might be a bit tricky for you to understand, but its still easy, that is to
+        make a
+        CX gate. Here, of you notice, we'll need to mention which qubits are supposed to be entangled. Type the code
+        given
+        below - <br>
+        <pre>qc = QuantumCircuit(2)<br>qc.cx(0,1) <br>qc.draw()</pre> Run this, what is the output? <br> <img
+            src="result3.png"> <br> We nottice that the first and second qubits are represented as entangled. But how
+        dies this work? well, notice that we gave 2 values in "qc.cx()", those are the qubit countings that tell which
+        qubit has to be entangled. Did you also see the "X" gate in the second qubit and that is connected to the first
+        qubit? What is it for? well this connnection between one qubit's gate to the other is shown to represent
+        entanglement. What if we swap the values given for "qc.cx()"? well when we write "(1, 0)"" in the paranthesis,
+        we mean that qubit "1"(second qubit) is entangled with qubit "0" (first qubit) and vice versa.
+    </div> <br>
+    <div id="que">Have a question? let us know by filling out this form!
+</body>
+<head>
+    <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLScLcmttU8j0HvqHLFjBaR9bZ3lUmkP7s2Tq9DXPwGilOZU-Zw/viewform?embedded=true"
+        width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</head>
+<script src="script.js">
+</script>
+</html>

@@ -1,0 +1,228 @@
+body{
+    margin: 5;
+    padding: 0;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+#loader{
+   margin: auto;
+   width: 100px;
+   height: 100px;
+   max-width: 20%;
+   max-height: 20%;
+   position: absolute;
+   border: 10px solid rgba(255, 255, 255, 0);
+   border-top: 20px double rgb(107, 176, 255);
+   border-bottom: 20px double rgb(191, 255, 107);
+   z-index: 100;
+   border-radius: 100%;
+   left: calc(50% - 40px);
+   top: calc(50% - 40px);
+   opacity: 1;
+   animation: load 5s ease infinite;
+}
+@keyframes load {
+    100%{
+        transform: rotate(1turn);
+    }
+}
+#home{
+    width: 100%;
+    height: 100%;
+    background-image: url(bg\ img1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#home h1{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Tahoma;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(255, 222, 160);
+    padding: 15px;
+    z-index: 1;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    user-select: none;
+}
+.padding{
+    font-size: larger;
+    background-color: white;
+    font-family: "Ubuntu";
+    z-index: 2;
+    user-select: none;
+    padding: 10px;
+}
+#weird li{
+    list-style-type: circle;
+}
+#Bar{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to right, rgb(21, 21, 131), blue, rgb(21, 21, 131)) ;
+    padding: 2px;
+    position: fixed;
+    z-index: 3;
+    margin: 0;
+}
+
+#Bar a:nth-of-type(1){
+    color: beige;
+    font-family: "Ubuntu";
+    text-decoration: none;
+    float: right;
+    display: block;
+    margin-right: 5px;
+    user-select: none;
+}
+#Bar a:nth-of-type(2){
+    display: block;
+    color: beige;
+    font-family: "Ubuntu";
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 80%;
+    user-select: none;
+}
+#Bar a:hover{
+    color: rgb(114, 114, 114);
+    transition: 0.2s;
+}
+#dev{
+    text-align: center;
+    font-family: "Ubuntu";
+    user-select: none;
+    width: 100%;
+    height: auto;
+}
+#dev img{
+    width: 20%;
+    height: auto;
+    justify-content: center;
+    border-radius: 100%;
+    opacity: 0.8;
+    box-shadow: 0px 0px 14px 0px;
+}
+#python pre{
+    background-color: black;
+    color: white;
+}
+#python img{
+    width: 70%;
+    height: auto;
+}
+#que{
+    text-align: center;
+    display: block;
+    margin-right: 50;
+    font-size: 1.5rem;
+    font-family: fantasy;
+}
+body h1{
+    font-family: "Ubuntu";
+}
+#contact{
+    width: 100%;
+    height: auto;
+}
+#contact a{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    transform: translate(-0%);
+}
+#contact a:nth-of-type(1){
+    letter-spacing: 2px;
+    padding: 10px 15px;
+    transform: translate(-0%);
+    width: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+}
+#contact a:nth-of-type(1):before{
+    content: '';
+    background: orange;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: top;
+    transform: scale(0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#contact a:nth-of-type(1):hover:before{
+    transform: scale(1);
+    transition: transform 0.5s;
+    transform-origin: top;
+}
+#contact a:nth-of-type(2){
+    letter-spacing: 2px;
+    padding: 10px 15px;
+    transform: translate(-0%);
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    margin-left: 50%;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+#contact a:nth-of-type(2):before{
+    content: '';
+    background: red;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: bottom;
+    transform: scale(0);
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#contact a:nth-of-type(2):hover:before{
+    transform: scale(1);
+    transition: transform 0.5s;
+    transform-origin: bottom;
+}
+#content{
+    list-style: decimal;
+    font-family: "Ubuntu";
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    margin: auto;
+}
+#content a{
+    text-decoration: none;
+    color: rgb(82, 206, 255);
+}
+#back a{
+    text-decoration: none;
+    color: beige;
+    background-color: rgb(137, 94, 255);
+    padding: 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    top: 20;
+    display: inline-block;
+}
+#back a:hover{
+    transition: 0.5s all;
+    box-shadow: 2px 1px 15px 3px #fff6a3e6;
+    background-color: rgb(162, 129, 255);
+}
